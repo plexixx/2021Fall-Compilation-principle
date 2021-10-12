@@ -1,0 +1,20 @@
+// Test 4
+
+#define array_size 20
+
+struct SIMPLE
+{
+    int a;
+    char b;
+    double c;
+};
+struct SIMPLE t1, t2[array_size], *t3;
+
+typedef struct
+{
+    int a;
+    char b;
+    double c; 
+} Simple;
+
+Simple u1, u2[array_size], *u3;
