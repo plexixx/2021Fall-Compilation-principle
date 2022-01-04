@@ -1,0 +1,7 @@
++ - * / ( ) num $
+E X T Y F
+E	TX
+X	+TX	-TX	~
+T	FY
+Y	*FY	/FY	~
+F	(E)	num

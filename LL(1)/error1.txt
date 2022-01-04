@@ -1,0 +1,85 @@
+1>------ 已启动生成: 项目: Parsing, 配置: Debug Win32 ------
+1>Parsing.cpp
+1>C:\Users\byx10\source\repos\Parsing\Parsing.cpp(109,23): warning C4018: “<”: 有符号/无符号不匹配
+1>D:\vs2019\VC\Tools\MSVC\14.26.28801\include\unordered_map(51,99): error C2280: “std::_Uhash_compare<_Kty,_Hasher,_Keyeq>::_Uhash_compare(const std::_Uhash_compare<_Kty,_Hasher,_Keyeq> &)”: 尝试引用已删除的函数
+1>        with
+1>        [
+1>            _Kty=tableType,
+1>            _Hasher=std::hash<tableType>,
+1>            _Keyeq=std::equal_to<tableType>
+1>        ]
+1>D:\vs2019\VC\Tools\MSVC\14.26.28801\include\xhash(185): message : 编译器已在此处生成“std::_Uhash_compare<_Kty,_Hasher,_Keyeq>::_Uhash_compare”
+1>        with
+1>        [
+1>            _Kty=tableType,
+1>            _Hasher=std::hash<tableType>,
+1>            _Keyeq=std::equal_to<tableType>
+1>        ]
+1>D:\vs2019\VC\Tools\MSVC\14.26.28801\include\xhash(185,1): message : “std::_Uhash_compare<_Kty,_Hasher,_Keyeq>::_Uhash_compare(const std::_Uhash_compare<_Kty,_Hasher,_Keyeq> &)”: 由于 数据成员 调用已删除或不可访问的函数“std::_Compressed_pair<_Hasher,std::_Compressed_pair<_Keyeq,float,true>,true>::_Compressed_pair(const std::_Compressed_pair<_Hasher,std::_Compressed_pair<_Keyeq,float,true>,true> &)”，因此已隐式删除函数
+1>        with
+1>        [
+1>            _Kty=tableType,
+1>            _Hasher=std::hash<tableType>,
+1>            _Keyeq=std::equal_to<tableType>
+1>        ]
+1>        and
+1>        [
+1>            _Hasher=std::hash<tableType>,
+1>            _Keyeq=std::equal_to<tableType>
+1>        ]
+1>D:\vs2019\VC\Tools\MSVC\14.26.28801\include\xmemory(1342,1): message : “std::_Compressed_pair<_Hasher,std::_Compressed_pair<_Keyeq,float,true>,true>::_Compressed_pair(const std::_Compressed_pair<_Hasher,std::_Compressed_pair<_Keyeq,float,true>,true> &)”: 由于 基类 调用已删除或不可访问的函数“std::hash<tableType>::hash(const std::hash<tableType> &)”，因此已隐式删除函数
+1>        with
+1>        [
+1>            _Hasher=std::hash<tableType>,
+1>            _Keyeq=std::equal_to<tableType>
+1>        ]
+1>D:\vs2019\VC\Tools\MSVC\14.26.28801\include\type_traits(2191,1): message : “std::hash<tableType>::hash(const std::hash<tableType> &)”: 由于 基类 调用已删除或不可访问的函数“std::_Conditionally_enabled_hash<_Kty,false>::_Conditionally_enabled_hash(const std::_Conditionally_enabled_hash<_Kty,false> &)”，因此已隐式删除函数
+1>        with
+1>        [
+1>            _Kty=tableType
+1>        ]
+1>D:\vs2019\VC\Tools\MSVC\14.26.28801\include\type_traits(2176,5): message : “std::_Conditionally_enabled_hash<_Kty,false>::_Conditionally_enabled_hash(const std::_Conditionally_enabled_hash<_Kty,false> &)”: 已隐式删除函数
+1>        with
+1>        [
+1>            _Kty=tableType
+1>        ]
+1>D:\vs2019\VC\Tools\MSVC\14.26.28801\include\unordered_map(51): message : 在编译 类 模板 成员函数“std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,true>::_Umap_traits(const _Tr &) noexcept(false)”时
+1>        with
+1>        [
+1>            _Kty=tableType,
+1>            _Ty=std::string,
+1>            _Hasher=std::hash<tableType>,
+1>            _Keyeq=std::equal_to<tableType>,
+1>            _Alloc=std::allocator<std::pair<const tableType,std::string>>,
+1>            _Tr=std::_Uhash_compare<tableType,std::hash<tableType>,std::equal_to<tableType>>
+1>        ]
+1>D:\vs2019\VC\Tools\MSVC\14.26.28801\include\xhash(391): message : 查看对正在编译的函数 模板 实例化“std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,true>::_Umap_traits(const _Tr &) noexcept(false)”的引用
+1>        with
+1>        [
+1>            _Kty=tableType,
+1>            _Ty=std::string,
+1>            _Hasher=std::hash<tableType>,
+1>            _Keyeq=std::equal_to<tableType>,
+1>            _Alloc=std::allocator<std::pair<const tableType,std::string>>,
+1>            _Tr=std::_Uhash_compare<tableType,std::hash<tableType>,std::equal_to<tableType>>
+1>        ]
+1>D:\vs2019\VC\Tools\MSVC\14.26.28801\include\xhash(342): message : 查看对正在编译的 类 模板 实例化“std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,true>”的引用
+1>        with
+1>        [
+1>            _Kty=tableType,
+1>            _Ty=std::string,
+1>            _Hasher=std::hash<tableType>,
+1>            _Keyeq=std::equal_to<tableType>,
+1>            _Alloc=std::allocator<std::pair<const tableType,std::string>>
+1>        ]
+1>D:\vs2019\VC\Tools\MSVC\14.26.28801\include\unordered_map(481): message : 查看对正在编译的 类 模板 实例化“std::_Hash<std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,true>>”的引用
+1>        with
+1>        [
+1>            _Kty=tableType,
+1>            _Ty=std::string,
+1>            _Hasher=std::hash<tableType>,
+1>            _Keyeq=std::equal_to<tableType>,
+1>            _Alloc=std::allocator<std::pair<const tableType,std::string>>
+1>        ]
+1>C:\Users\byx10\source\repos\Parsing\Parsing.cpp(52): message : 查看对正在编译的 类 模板 实例化“std::unordered_multimap<tableType,std::string,std::hash<tableType>,std::equal_to<tableType>,std::allocator<std::pair<const tableType,std::string>>>”的引用
+1>已完成生成项目“Parsing.vcxproj”的操作 - 失败。
